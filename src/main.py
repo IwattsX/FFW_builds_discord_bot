@@ -40,5 +40,5 @@ async def ping(interaction: discord.Interaction):
 
 
 client.tree.add_command(ping)
-
+assert token is not None
 client.run(token)
