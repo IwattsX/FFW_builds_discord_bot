@@ -1,9 +1,7 @@
 import json
 import os
 
-from save_data import save_data
-
-normal_jokers_dict = {
+sidearm_jokers_dict = {
     "REVOLVER": {
         "jokers": [
             {
@@ -115,11 +113,12 @@ normal_jokers_dict = {
 }
 
 
-s = json.dumps(normal_jokers_dict, indent=4)
+s = json.dumps(sidearm_jokers_dict, indent=4)
 print(s)
 
 # get script directory for saving the dictionary to a normal_jokers file
 script_dir = os.path.dirname(__file__)
 data_file_dir = os.path.join(script_dir, "../data/sidearm_unique_jokers.json")
 
-save_data(data_file_dir, normal_jokers_dict)
+with open(data_file_dir, "w+") as file:
+    json.dump(sidearm_jokers_dict, file, indent=4)
