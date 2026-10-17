@@ -1,0 +1,32 @@
+{
+    "jokers": [
+        {
+            "name": "CONSUMER",
+            "description": "Grants +25% wepon damage, but reloading now waste unused ammo",
+            "rarity": "MYTHIC",
+            "notches": "4",
+            "limit": "1"
+        },
+        {
+            "name": "EXECUTE",
+            "description": "Your hits instantly kill enemies below 20% HP, except elites and bosses",
+            "rarity": "MYTHIC",
+            "notches": "4",
+            "limit": "1"
+        },
+        {
+            "name": "HEADBANG",
+            "description": "+30% weakspot damage",
+            "rarity": "MYTHIC",
+            "notches": "4",
+            "limit": "1"
+        },
+        {
+            "name": "RIPOSTE",
+            "description": "After your shield absorbs a hit, your next attack deals +100% damage",
+            "rarity": "MYTHIC",
+            "notches": "4",
+            "limit": "2"
+        }
+    ]
+}
